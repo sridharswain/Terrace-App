@@ -1,0 +1,32 @@
+{
+  "name": "terraceapp",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "node node_modules/react-native/local-cli/cli.js start",
+    "test": "jest"
+  },
+  "dependencies": {
+    "antd-mobile": "^2.1.8",
+    "react": "^16.3.0-alpha.1",
+    "react-dom": "^16.3.0",
+    "react-native": "0.54.4",
+    "react-native-card-view": "^0.0.3",
+    "react-native-elements": "^0.19.0",
+    "react-native-linear-gradient": "^2.4.0",
+    "react-native-overlay": "^0.5.0",
+    "react-native-router-flux": "^4.0.0-beta.28",
+    "react-native-sliding-up-panel": "^1.1.12",
+    "react-native-vector-icons": "^4.6.0",
+    "rn-sliding-up-panel": "^1.1.10"
+  },
+  "devDependencies": {
+    "babel-jest": "22.4.3",
+    "babel-preset-react-native": "4.0.0",
+    "jest": "22.4.3",
+    "react-test-renderer": "^16.3.0-alpha.1"
+  },
+  "jest": {
+    "preset": "react-native"
+  }
+}
